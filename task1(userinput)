@@ -1,0 +1,23 @@
+package task1;
+import java.util.Scanner;
+
+public class userinput {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("ENETER THE NUMBER:");
+		int num=scan.nextInt();
+		if(num>0) {
+			System.out.println("Your number is positive");
+		}
+		else if(num==0) {
+			System.out.println("Your number is zero");
+		}
+		else {
+			System.out.println("Your number is negative");
+		}
+		
+
+	}
+
+}
