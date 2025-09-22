@@ -1,0 +1,15 @@
+package task1;
+
+public class javatask1 {
+
+	public static void main(String[] args) {
+		int a=12;
+		int b=11;
+		System.out.println("METHOD FOR ADDITION:"+(a+b));
+		System.out.println("METHOD FOR SUBRACTION:"+(a-b));
+		System.out.println("METHOD FOR MULTIPLE:"+(a*b));
+		System.out.println("METHOD FOR DIVISION:"+(a/b));
+
+	}
+
+}
